@@ -223,6 +223,7 @@ p {
 .second-brain-container {
   padding: 4rem;
   /* border: 5px solid green; */
+  margin-bottom: 4rem;
 }
 .second-brain-txtContainer {
   /* border: 5px solid purple; */
@@ -234,3 +235,50 @@ p {
 .second-brain-txtContainer ul li {
   list-style: none;
 }
+/* second brain css work ended */
+
+/* challenge section css work started */
+
+.challenge-section-container {
+  /* border: 2px solid red; */
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.challenge-section {
+  /* border: 2px solid blue; */
+  border: 0px solid;
+  padding: 5rem 10rem;
+  background-color: #f7f6f2;
+  border-radius: 1.5rem;
+}
+.challenge-section div h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+}
+.challenge-section div p {
+  font-size: small;
+  text-align: center;
+  color: #627382;
+}
+/* .challenge-section button {
+  border: 3px solid red;
+} */
+.early-access-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  /* border: 4px solid purple; */
+}
+.challenge-section div ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.challenge-section div ul li {
+  color: #627382;
+}
+/* challenge section css work ended */
