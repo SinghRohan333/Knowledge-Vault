@@ -8,3 +8,229 @@ body {
   font-family: "Inter", sans-serif;
   max-width: 100%;
 }
+/* header section css work started */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3rem 0.25rem 3rem;
+}
+header nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+header nav ul li {
+  padding-top: 1.25rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+header nav button {
+  background-color: #30b868;
+  font-size: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: 0px solid;
+}
+header nav div {
+  /* border: 2px solid red; */
+  padding: 0.25rem 1.5rem;
+}
+header nav div button:hover {
+  background-color: #1f7d45;
+}
+header {
+  margin-bottom: 0.25rem;
+  /* border: 3px solid yellow; */
+}
+/* header section css work ended */
+
+/* banner css work started */
+.banner {
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.innerBan {
+  /* border: 4px solid red; */
+  margin: 0 auto;
+  padding: 5rem;
+}
+.earlyAccess {
+  /* border: 2px solid blue; */
+  margin-bottom: 2rem;
+}
+.earlyAccess button {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  /* padding-bottom: 0.5rem; */
+  border-radius: 3rem;
+  border: 0px solid;
+}
+.earlyAccess button h4 {
+  text-align: center;
+  color: #30b868;
+}
+.heroTxt {
+  margin-bottom: 1.25rem;
+}
+.heroTxt span h1 {
+  /* border: 2px solid yellow; */
+  /* margin: 0 auto; */
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.smallNote {
+  /* border: 2px solid red; */
+  margin-bottom: 2.5rem;
+}
+.smallNote p {
+  margin-left: 6rem;
+  margin-right: 4rem;
+  /* border: 2px solid blue; */
+}
+.smallNote p {
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  color: white;
+  font-size: smaller;
+}
+.dualBtn {
+  /* border: 3px solid blue; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn-1 {
+  background-color: #30b868;
+  border: 0px solid;
+}
+.btn-1,
+.btn-2 {
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1.25rem;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: #1f7d45;
+}
+.btn-2 {
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.btn-2:hover {
+  background-color: gray;
+}
+/* banner css work ended */
+
+/* card css work started */
+.card-header {
+  /* border: 2px solid red; */
+  margin-bottom: 2rem;
+}
+.card-header h1 {
+  padding-top: 1.25rem;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+}
+.card-header h1,
+p {
+  text-align: center;
+}
+.card-header p {
+  padding-top: 0.25rem;
+  font-size: smaller;
+  color: #627382;
+  margin-left: 3rem;
+  margin-right: 1.5rem;
+}
+.vector {
+  background-color: #f95555;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+.vector-foot {
+  padding-top: 0.5rem;
+  font-size: small;
+  color: #627382;
+}
+.card-1 {
+  border: 2px solid whitesmoke;
+  padding-top: 5rem;
+  padding-bottom: 1.25rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  border-radius: 1.25rem;
+  width: 15%;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2.5rem;
+  /* border: 4px solid blue; */
+}
+.card-container {
+  margin-bottom: 3rem;
+  /* border: 3px solid blue; */
+}
+/* card css work ended */
+
+/* second brain css work started */
+.second-brain {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+}
+/* .second-brain figure {
+  border: 4px solid brown;
+} */
+.second-brain img {
+  width: 70%;
+  /* border: 2px solid blue; */
+  float: right;
+}
+.second-brain-container {
+  padding: 4rem;
+  /* border: 5px solid green; */
+}
+.second-brain-txtContainer {
+  /* border: 5px solid purple; */
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.second-brain-txtContainer ul li {
+  list-style: none;
+}
